@@ -1,0 +1,136 @@
+
+  .card img {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    width: 15.625rem;
+    height: 15.625rem;
+     
+  }
+  .gallaryimg img:hover {
+    display: inline-block;
+    margin: 0 0rem;
+  
+    animation: bounce;
+    animation-duration: 1s;
+  }
+  div .container {
+    border-radius: 5px;
+    box-shadow: 5px 5px 40px -5px;
+    background-color: rgb(218, 238, 255);
+    justify-content: center;
+    /* align-items: center; */
+    margin-top: 4%;
+    margin-bottom: 4%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 60%;
+    margin-left: 20%;
+  }
+
+  
+/*   
+  div.card:hover {
+    border-radius: 7px;
+    background-color: rgb(100, 100, 100);
+  
+  } */
+
+  
+  div.card {
+    border-radius: 6px;
+    box-sizing: border-box;
+    margin: 30px;
+   
+    width: fit-content;
+    height:  250px;
+    background-color:azure;
+    display: flex;
+    flex-direction:row;
+    max-height:60vh; 
+    align-items: center;
+    justify-content: center;
+    font-size: calc(8px + 2vmin);
+    color: rgb(20, 14, 14);
+  }
+
+  button {
+    cursor: pointer;
+    padding: 7px;
+  
+    border-radius: 5px;
+  }
+ 
+
+  button:hover {
+    border-color: rgb(109, 3, 3);
+  
+    background-color: rgb(109, 3, 3);
+  
+    display: inline-block;
+  
+    animation: heartBeat; 
+    animation-duration: 2s;
+  }
+  
+  .wishlistbtn {
+    color: aliceblue;
+    float: right;
+    border: rgb(133, 0, 0);
+    background-color: rgb(133, 0, 0);
+    border-radius: 5px;
+    /* padding: 10px; */
+    margin: 5%;
+
+  }
+  .Orderbtn{
+    float: left;
+   
+   
+    border-radius: 5px;
+    padding: 8px;
+    margin: 5%;
+  }
+
+  .wishlistbtn::after {
+    color: red;
+    background-color: red;
+  }
+  .card__info a  {
+    margin-top: 0;
+    float: center;
+    /* margin-left: 60%; */
+  }
+  .card__info {
+    padding-left: 20px;
+    height: fit-content;
+    width: auto;
+  }
+  .galleryimgs{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 4;
+    padding: 25px 5px 25px 5px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .galleryHeader{
+    /* justify-content: center; */
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-size: 30px;
+  }
+  .gallaryimg img{
+    width: 300px;
+    height: 300px;
+  }
+  .gallaryimg{
+    padding: 10px;
+    height: 300px;
+  }
+  .details{
+    font-size: 1.25rem;
+    padding-top: 0;
+    justify-content:baseline;
+  }

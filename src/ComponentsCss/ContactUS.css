@@ -1,0 +1,21 @@
+.contactdetails {
+
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+   
+}
+.contactcard{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 20px;
+    background-color: peachpuff;
+}
+.address ,.contact-phone, .contact-email{
+ 
+    align-items: center;
+}
+h2 {
+    font-size: 40px;
+}

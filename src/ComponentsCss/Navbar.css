@@ -1,0 +1,43 @@
+html {
+  font-size: 1rem;
+}
+
+.active {
+  /* background-color: rgb(109, 4, 4); */
+  color: rgb(115, 11, 235);
+}
+nav {
+  box-shadow: 5px 5px 25px -10px;
+  position: sticky;
+  top: 0;
+  color: black;
+  background-color: aliceblue;
+  margin-bottom: 0;
+  padding: 3px;
+  
+  display: flex;
+  justify-content: space-around;
+  /* outline: none !important; */
+}
+.img-tag img {
+  justify-content: space-around;
+  width: 250px;
+  height: fit-content;
+}
+.list-group a {
+  padding: 1rem;
+  text-decoration: none;
+}
+
+div.list-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  color: black;
+  font-size: 1rem;
+  font-weight: 700;
+}
+

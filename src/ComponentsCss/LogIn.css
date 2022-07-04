@@ -1,0 +1,44 @@
+.formdiv {
+    background-image: url('/public/Images/slide-image-01.jpg');
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /* flex-direction: column; */
+}
+
+
+
+
+.formfield {
+    background-color: rgb(250, 225, 214);
+    padding: 20px;
+    width:30%;
+    height: 50vh;
+    border-radius: 5px;
+    box-shadow: 5px 5px 40px -5px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h1 {
+    text-align: center;
+}
+input {
+    border-radius: 10px;
+    width: 80%;
+    height: 1.5rem;
+    background-color: rgb(255, 249, 233);
+}
+.Signupbtn{
+    margin-top: 2%;
+    padding: 7px;
+}
+.Signupbtn:hover {
+   
+    border: blue;
+    background-color: rgb(60, 60, 255);
+
+}

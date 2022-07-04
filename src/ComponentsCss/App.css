@@ -1,0 +1,5 @@
+@media (min-width: 283px) {
+  ::after {
+    overflow: scroll;
+  }
+}

@@ -1,0 +1,94 @@
+.header-div{
+    background-color:antiquewhite;
+    text-align: center;
+    justify-content: center;
+    padding: 15px;
+}
+.header-div h2{
+  color: brown;
+}
+.grid-container{
+    display: flex;
+    flex-direction: row;
+}
+.about-images{
+    text-align: center;
+    position: relative;
+
+
+    margin: 10%;
+    padding: 50px;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+.image-section {
+   background-color: rgb(255, 255, 255);
+}
+.about-main{
+    border-radius: 50%;
+    border-style:double solid;
+}
+.about-inset {
+    border-radius: 50%;
+    border-style: double solid ;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.contant-section{
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+}
+.review-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: 2;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.review-div{
+    width: 20%;
+    margin: 3%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: center; */
+    background-color: antiquewhite;
+    padding: 5px;
+    box-shadow: 2px 2px 15px -2px;
+    border-radius: 7px;
+    
+}
+.review-content {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+#profile-icon {
+    margin: 0;
+    font-size: 5rem;
+}
+.review-title {
+    color: brown;
+    padding: 10px;
+    font-size: 25px;
+    background-color: rgb(219, 219, 219);
+    border-radius: 10px;
+}
+.review-content h4 {
+    color: brown;
+  margin: 0;
+}
+.review-content h6{
+    color: rgb(25, 29, 241);
+    margin: 0;
+}
+.review-content p {
+    margin: 0;
+}
